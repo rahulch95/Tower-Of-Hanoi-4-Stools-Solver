@@ -1,12 +1,12 @@
-Tower-Of-Hanoi-4-Stools-Solver
+Tower of Hanoi 4 Stools Solver
 ==============================
 
 ## What is it?
-Solves the tower of hanoi problem recursively for four stools and visualizes it for you. 
+Solves the Tower of Hanoi problem recursively for four stools and visualizes it for you. 
 It uses memoization to enhance the speed, so it works for more than 1000 pieces instantly.
 
 ## How do I run it?
-To run it you will need Python (tested in Python 3.3). Once you install python:
+To run it you will need Python (tested in Python 3.3). Once you install python, run terminal and cd to the directory in which ***SolvingController.py*** is stored and type in:
 ```
 python SolvingController.py
 ```
