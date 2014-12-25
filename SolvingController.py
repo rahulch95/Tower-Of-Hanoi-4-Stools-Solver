@@ -1,5 +1,5 @@
 # Copyright 2013 Gary Baumgartner, Samuel Richard Holett Earle, Rahul Chaudhary 
-# and Aayush Agarwal
+# and Aayush Agarwal. Done as part of CSC148 Assignment 1.
 # Distributed under the terms of the GNU General Public License.
 #
 # This is free software: you can redistribute it and/or modify
@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this file.  If not, see <http://www.gnu.org/licenses/>.
 """
-SolvingController: GUI window for automatically solving Anne Hoy's problems,
+SolvingController: GUI window for automatically recursively (using memoization) solving Anne Hoy's problems,
 while animating it.
 """
 
