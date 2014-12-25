@@ -577,7 +577,10 @@ if __name__ == '__main__':
             print("The value inputed is not a number!")
         else:
             if option == 2:    
-                a = SolvingController(number_of_cheese, 1024, 320, 20, 0.3)
+                # to change the amount of time taken for each step by the automatic solver
+                # change the following variable
+                timeTakenForEachStep = 0.3
+                a = SolvingController(number_of_cheese, 1024, 320, 20, timeTakenForEachStep)
                 a.four_stool(number_of_cheese, 0, 1, 2, 3)
             elif option == 1:
                 ManualController(number_of_cheese, 4, 1024, 320, 20)
